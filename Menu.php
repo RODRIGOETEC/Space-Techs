@@ -1,5 +1,6 @@
 <?php
-  $paginas = ['Noticias'=>'Noticias aqui!','sobre'=>'estou na pagina sobre','contato'=>'<form><input type ="text" placeholder="Seu nome..."/></form>','FAQ'=> 'perguntas frequentes','Loja'=>'conteudo loja'];
+  $paginas = ['Noticias'=>'Noticias aqui!','sobre'=>'estou na pagina sobre'
+  ,'Recoemdações'=> 'Recomendações de Jogos e outras coisas','Loja'=>'conteudo loja','Contato'=>'Contato de ajuda'];
 
 
 ?>
@@ -19,18 +20,15 @@
         }
         ?>
     </header>
- <section>
- <h2> <?php
-
-$pagina = (isset($_GET['page']) ? $_GET['page'] : 'home'); 
-
-if(!array_key_exists($pagina, $paginas)){
-$pagina = 'home';
-}
-
-echo ucfirst($pagina);
-
-?></h2>
- </section>
+    <style>
+    h1 {
+        margin: 30px;
+        padding: 10px;
+        box-sizing: border-box;
+        text-align: center;
+        font-size: 30
+    }
+    </style>
+    <h1> Space Techs </h1> 
 </body>
 </html>
