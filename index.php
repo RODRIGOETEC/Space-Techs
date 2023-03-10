@@ -7,6 +7,7 @@
     <title>Projeto 2 A</title>
 </head>
 <body>
+    <p>Bem vindo ao sistema</p><br>
     <form method= "POST" action="validacao.php">
    <label>Valor</label>
    <input type="text" name="valor">
