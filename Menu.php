@@ -33,10 +33,26 @@
     <form name="fomr1" method="post">
     <fieldset>
     <legend>Oque é o site</legend>
+    
     <tabble>
-
+    <legend>Aqui nesse site você encontrará conteudo da cultura Geek e Tech como: Animes, Jogos, series, Filmes e muito mais </legend>
   </table>
   </fieldset>
+  
+  
   </form>
+  <br>
+  <br>
+  <form name="fomr2" method="post">
+  <fieldset>
+    <table> 
+      <legend>Curiosidade</legend>
+      <legend>*Anime de Solo Leveling foi adiado para 2024, sem data pra lançamento <legend>
+        <br>
+        <legend>*O nome Kratos, de God Of War, vem da palavra grega “cratos” que significa poder</legend>
+        <br>
+        <legend>*O lamen Ichiraku de Naruto já existiu na vida real</legend>
+        <br>
+        <legend>*Os personagens de Code Geass adoram pizza porque o anime foi financiado pela Pizza Hut</legend>
 </body>
 </html>
