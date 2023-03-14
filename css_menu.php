@@ -37,3 +37,9 @@ p{
     margin-top: 10px;
     font-size: 16px;
 }
+body{
+    background-image: url(fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+     background-attachment: scroll;
+}

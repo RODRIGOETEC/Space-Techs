@@ -9,7 +9,7 @@
 <head>
     <title>Projeto</title>
   <style>
-    <?php include "css.php" ?>
+    <?php include "css_menu.php" ?>
   </style>
 </head>
 <body>
@@ -38,5 +38,9 @@
   </table>
   </fieldset>
   </form>
+  <footer>
+    123456
+  </footer>
 </body>
+
 </html>

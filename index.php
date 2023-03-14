@@ -15,3 +15,16 @@
 </form>
 </body>
 </html>
+<?php 
+$valor = 10;
+if(valor>10){
+
+} else {
+
+}
+
+while ($valor <= 10) {
+    echo $valor;
+    $valor = $valor +1;
+}
+?>
