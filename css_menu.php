@@ -38,7 +38,7 @@ p{
     font-size: 16px;
 }
 body{
-    background-image: url(fundo.jpg);
+    background-image: url(fundo.png);
     background-repeat: no-repeat;
     background-size: 100%;
      background-attachment: scroll;

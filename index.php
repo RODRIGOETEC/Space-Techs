@@ -5,7 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=Projeto, initial-scale=1.0">
     <title>Projeto 2 A</title>
-</head>
 <body>
     <p>Bem vindo ao sistema</p><br>
     <form method= "POST" action="validacao.php">
