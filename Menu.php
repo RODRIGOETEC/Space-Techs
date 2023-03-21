@@ -60,19 +60,22 @@
 <br>
   <form name="form3" method="Post">
     <fieldset>
-    <legend>BOLO</legend>
+    <legend>Jogos Lançamentos</legend>
 
     <table>
-      <p>shugduysygud</p>
+      <p>shugd</p>
   </table>
   </fieldset>
   </form>
-  <form name="form3" method="Post">
+<br>
+<br>
+  <form name="form4" method="Post">
     <fieldset>
-    <legend>BOLO</legend>
-
+    <legend>Empresas de jogos saem do Brasil</legend>
     <table>
-      <p>shjghgjvhjghjhugduysygud</p>
+      <p>Diversas Empresas no ramo de jogos como Microsft, Nintendo, Sony e diversas outras estão saindo do Brasil por causa do aumento de 
+        impostos nos jogos que as previsões cheguem em até 40%
+      </p>
   </table>
   </fieldset>
   </form>
