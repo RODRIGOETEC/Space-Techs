@@ -70,14 +70,16 @@ Jogos que serão lançado em 2023 <br> <br>
   <th>Consoles disponiveis </th>
 </tr>
 <tr>
-  <th>Resident Evil 4</th>
-  <th>24 de março</th>
+  <th> <a href="https://store.steampowered.com/app/2050650/Resident_Evil_4/">Resident Evil 4</a></th>
+  <th><24 de março</th>
   <th> PlayStation4/5,Xbox Series S/X e Microsoft Windows</th>
+  <th>  <a href="https://store.steampowered.com/app/2050650/Resident_Evil_4/">Resident Evil 4</a></th>
 </tr>
 <tr>
   <th>Hogwarts Legacy</th>
   <th>7 de fevereiro</th>
-  <th></th>
+  <th> PlayStation 4/5, Xbox Series S/X, Xbox One,
+    <br> Nintendo Switch, Microsoft Windows</th>
 </tr>
   </table>
   </fieldset>
