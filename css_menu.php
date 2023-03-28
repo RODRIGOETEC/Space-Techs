@@ -43,3 +43,9 @@ body{
     background-size: 100%;
      background-attachment: scroll;
 }
+th{
+    border: 2px solid black;
+}
+a{
+    text-decoration: none;
+}

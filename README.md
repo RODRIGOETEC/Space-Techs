@@ -18,3 +18,5 @@
 
  Quando ter algum erro sobre as vendas ou de qualquer outro problema relacionado ao site, as pessoas podem entrar em contato para podermos ajuda-la em qualquer outros problemas com eficiencia. 
                
+               Vinicus Pereira Sampaio
+               Rodrigo Silva Guedes

@@ -63,7 +63,22 @@
     <legend>Jogos Lançamentos</legend>
 
     <table>
-      <p>shugd</p>
+Jogos que serão lançado em 2023 <br> <br>
+<tr>
+  <th>Nome Jogos</th>
+  <th>Data Lançamento</th>
+  <th>Consoles disponiveis </th>
+</tr>
+<tr>
+  <th>Resident Evil 4</th>
+  <th>24 de março</th>
+  <th> PlayStation4/5,Xbox Series S/X e Microsoft Windows</th>
+</tr>
+<tr>
+  <th>Hogwarts Legacy</th>
+  <th>7 de fevereiro</th>
+  <th></th>
+</tr>
   </table>
   </fieldset>
   </form>
