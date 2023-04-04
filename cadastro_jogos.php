@@ -1,3 +1,6 @@
+<h1>Cadastro Jogos</h1>
+
+
 Nome do Jogo<br>
 <input type="text" name="nome jogo" value="" maxlength="45"> <br> <br>
 

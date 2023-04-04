@@ -1,3 +1,5 @@
+<h1>Cadastro Animes/Manga</h1>
+
 Nome do Anime<br>
 <input type="text" name="nome_anime" value="" maxlength="45"> <br> <br>
 
