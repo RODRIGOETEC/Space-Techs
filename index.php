@@ -24,10 +24,10 @@
 			   <label for="senha">Senha</label>
 			   <input type="password" name="senha" placeholder="Senha"> 
 			</div>
-			<button class="btn-login">Login</button>
+			<button class="btn-login"><a href="home.php">Login</a></button>
 			<div class="btn-2">
-				<button class="btn-cadastro"><p>Cadastre-se</p></button>
-			<button class="btn-es"><p>Esqueceu a Senha?</p></button>
+				<button class="btn-cadastro"><a href="cadastro_user.php"><p>Cadastre-se</p></a></button>
+			<button class="btn-es"><a href="esenha.php"><p>Esqueceu a Senha?</p></a></button>
 		</div>
 	</div>
 	</div>

@@ -1,0 +1,19 @@
+body{
+    background: #201b2c;
+    justify-content: center;
+}
+
+.center-pag{
+    width: 100vw;
+	height: 100vh;
+	display: block;
+    text-align: center;
+	justify-content: center;
+	align-items: center;
+    color: #00ff88;
+}
+
+.textfield{
+    text-align: center;
+    justify-content: center;
+}

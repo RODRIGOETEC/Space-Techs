@@ -112,6 +112,13 @@ text-align: center;
 	box-shadow: 0px 10px 40px -12px #00ff8052 ;
 }
 
+.btn-login > p{
+    font-size: 10px;
+    text-transform: uppercase;
+    border-radius: 10px;
+    padding: 100px 100px;
+}
+
 .btn-cadastro{
 	padding: 5px 0px;
 	margin: 10px;
@@ -129,8 +136,10 @@ text-align: center;
 
 		.btn-cadastro > p{
 			font-size: 10px;
+            text-transform: uppercase;
+            border-radius: 10px;
+            padding: 100px 100px;
 		}
-
 			.btn-es{
 				padding: 5px 0px;
 	margin: 10px;
@@ -147,6 +156,9 @@ text-align: center;
 			}
 			.btn-es > p {
 				font-size: 10px;
+                text-transform: uppercase;
+                border-radius: 10px;
+                padding: 100px 100px;
 			}
 
 			.btn-2{
