@@ -1,11 +1,10 @@
 <?php
   $paginas = ['Noticias'=>'Noticias aqui!','sobre'=>'estou na pagina sobre'
   ,'Recomendações'=> 'Recomendações de Jogos e outras coisas','Loja'=>'conteudo loja','Contato'=>'Contato de ajuda'];
-
-
 ?>
 <!DOCTYPE html>
 <html>
+<link rel="stylesheet" href="user.css">
 <head>
     <title>Projeto</title>
   <style>
@@ -26,7 +25,8 @@
         padding: 10px;
         box-sizing: border-box;
         text-align: center;
-        font-size: 30
+        font-size: 30;
+        color: #00ff88;
     }
     </style>
     <h1> Space Techs </h1> 
@@ -70,10 +70,9 @@ Jogos que serão lançado em 2023 <br> <br>
   <th>Consoles disponiveis </th>
 </tr>
 <tr>
-  <th> <a href="https://store.steampowered.com/app/2050650/Resident_Evil_4/">Resident Evil 4</a></th>
+  <th>Resident Evil 4</th>
   <th><24 de março</th>
   <th> PlayStation4/5,Xbox Series S/X e Microsoft Windows</th>
-  <th>  <a href="https://store.steampowered.com/app/2050650/Resident_Evil_4/">Resident Evil 4</a></th>
 </tr>
 <tr>
   <th>Hogwarts Legacy</th>

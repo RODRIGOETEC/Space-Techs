@@ -6,7 +6,7 @@
     }
 
     header{
-        background-color: black;
+        background-color: #2b134b;
         padding:8px 10px;
         text-align: center;
     }
