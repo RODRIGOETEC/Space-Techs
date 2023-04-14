@@ -6,7 +6,7 @@
     }
 
     header{
-        background-color: #2b134b;
+        background-color: #201b2c;
         padding:8px 10px;
         text-align: center;
     }
@@ -37,15 +37,40 @@ p{
     margin-top: 10px;
     font-size: 16px;
 }
-body{
-    background-image: url(fundo.png);
-    background-repeat: no-repeat;
-    background-size: 100%;
-     background-attachment: scroll;
-}
 th{
     border: 2px solid black;
+    color: white;
 }
 a{
     text-decoration: none;
 }
+
+body{
+    background: #2b134b;
+    justify-content: center;
+}
+
+.textfield{
+    text-align: center;
+    justify-content: center;
+    color: white;
+    font-size: 18px;
+}
+
+.center-pag{
+    width: 100vw;
+	height: 100vh;
+	display: block;
+    text-align: center;
+	justify-content: center;
+	align-items: center;
+}
+
+.titulo{
+    color: #00ff88 ;
+    font-size: 20px;
+}
+
+#201b2c
+#2b134b
+00ff88

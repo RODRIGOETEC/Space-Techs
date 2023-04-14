@@ -4,7 +4,6 @@
 ?>
 <!DOCTYPE html>
 <html>
-<link rel="stylesheet" href="user.css">
 <head>
     <title>Projeto</title>
   <style>
@@ -12,6 +11,7 @@
   </style>
 </head>
 <body>
+  <div class="center-pag">
     <header>
         <?php
         foreach ($paginas as $key => $value) {
@@ -29,41 +29,42 @@
         color: #00ff88;
     }
     </style>
+  
     <h1> Space Techs </h1> 
-    <form name="fomr1" method="post">
-    <fieldset>
-    <legend>Oque é o site</legend>
-
-    <table>
-    <p>Aqui nesse site você encontrará conteudo da cultura Geek e Tech como: Animes, Jogos, series, Filmes e muito mais. <br>
-     Tambem tera nossa loja onde você pode comprar ou até mesmo divulgar e vender seus produtos,
-      lembrando que terá as regras para se cumprir para que o site seja 100% seguro
-  </p>
-  </table>
-  </fieldset>
-  </form>
-  <br>
-  <br>
-  <form name="fomr2" method="post">
+  <form class="titulo" method="post">
   <fieldset>
     <table>
-      
+      <legend>Oque é o Site?</legend>
+      <div class="textfield">
+      Aqui nesse site você encontrará conteudo da cultura Geek e Tech como: Animes, Jogos, series, Filmes e muito mais. <br>
+     Tambem tera nossa loja onde você pode comprar ou até mesmo divulgar e vender seus produtos,
+      lembrando que terá as regras para se cumprir para que o site seja 100% seguro
+  </div>
+  </table>
+  </fieldset>
+  </form>
+  <br>
+  <br>
+  <form class="titulo" method="post">
+  <fieldset>
+    <table>
       <legend>Curiosidade</legend>
-      <p>*Anime de Solo Leveling foi adiado para 2024, sem data pra lançamento </p>
-        <p>*O nome Kratos, de God Of War, vem da palavra grega “cratos” que significa poder</p>
-        <p>*O lamen Ichiraku de Naruto já existiu na vida real</p>
-        <p>*Os personagens de Code Geass adoram pizza porque o anime foi financiado pela Pizza Hut</p>
+      <div class="textfield">
+      *Anime de Solo Leveling foi adiado para 2024, sem data pra lançamento <br>
+      *O nome Kratos, de God Of War, vem da palavra grega “cratos” que significa poder<br>
+      *O lamen Ichiraku de Naruto já existiu na vida real<br>
+      *Os personagens de Code Geass adoram pizza porque o anime foi financiado pela Pizza Hut<br>
+  </div>
   </table>
   </fieldset>
   </form>
 <br>
 <br>
-  <form name="form3" method="Post">
+  <form class="titulo" action="" method="Post">
     <fieldset>
+      <table>
     <legend>Jogos Lançamentos</legend>
-
-    <table>
-Jogos que serão lançado em 2023 <br> <br>
+    <div class="textfield">
 <tr>
   <th>Nome Jogos</th>
   <th>Data Lançamento</th>
@@ -71,7 +72,7 @@ Jogos que serão lançado em 2023 <br> <br>
 </tr>
 <tr>
   <th>Resident Evil 4</th>
-  <th><24 de março</th>
+  <th>24 de março</th>
   <th> PlayStation4/5,Xbox Series S/X e Microsoft Windows</th>
 </tr>
 <tr>
@@ -80,21 +81,23 @@ Jogos que serão lançado em 2023 <br> <br>
   <th> PlayStation 4/5, Xbox Series S/X, Xbox One,
     <br> Nintendo Switch, Microsoft Windows</th>
 </tr>
+  </div>
   </table>
   </fieldset>
   </form>
 <br>
 <br>
-  <form name="form4" method="Post">
+  <form class="titulo" action="" method="Post">
     <fieldset>
+      <table>
     <legend>Empresas de jogos saem do Brasil</legend>
-    <table>
-      <p>Diversas Empresas no ramo de jogos como Microsft, Nintendo, Sony e diversas outras estão saindo do Brasil por causa do aumento de 
-        impostos nos jogos que as previsões cheguem em até 40%
-      </p>
+      <div class="textfield">
+      Diversas Empresas no ramo de jogos como Microsft, Nintendo, Sony e diversas outras estão saindo do Brasil por causa do aumento de 
+      impostos nos jogos que as previsões cheguem em até 40%
+  </div>
   </table>
   </fieldset>
   </form>
-  
+  </div>
 </body>
 </html>
