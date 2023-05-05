@@ -1,36 +1,27 @@
-<?php
-  $paginas = ['Noticias'=>'Noticias aqui!','sobre'=>'estou na pagina sobre'
-  ,'Recomendações'=> 'Recomendações de Jogos e outras coisas','Loja'=>'conteudo loja','Contato'=>'Contato de ajuda'];
-?>
 <!DOCTYPE html>
 <html>
 <head>
     <title>Projeto</title>
-  <style>
-    <?php include "css_menu.php" ?>
-  </style>
+    <link rel="stylesheet" href="estilo/cabecalho.css">
+    <link rel="stylesheet" href="estilo/home.css">
+    <header>
+    <h1 class="cabecalho">Space-Techs</h1>
+    <nav>
+    <ul id="menu">
+            <li><a href="home.php">Home</a>
+            <li><a href="noticia/noticia.php">Noticias</a></li>
+            <li><a href="sobre/sobre.php">Sobre</a></li>
+            <li><a href="recomendacao/recomendacao.php">Recomendações</a></li> 
+            <li><a href="loja/loja.php">Loja</a></li>
+            <li><a href="contato/contato.php">Contato</a></li>
+            </li>        
+        </ul>
+</nav>
+</header>
 </head>
 <body>
   <div class="center-pag">
-    <header>
-        <?php
-        foreach ($paginas as $key => $value) {
-            echo '<a href ="page='.$key.'">'.ucfirst($key).'</a>';
-        }
-        ?>
-    </header>
-    <style>
-    h1 {
-        margin: 30px;
-        padding: 10px;
-        box-sizing: border-box;
-        text-align: center;
-        font-size: 30;
-        color: #00ff88;
-    }
-    </style>
-  
-    <h1> Space Techs </h1> 
+    <h1 class="titulo2"> Space Techs </h1> 
   <form class="titulo" method="post">
   <fieldset>
     <table>

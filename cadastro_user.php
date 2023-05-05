@@ -43,7 +43,7 @@
 <input type="password"  name="senha2_user" id="" placeholder="Confirme sua Senha"><br> <br>
 </div>
 <label for="dtnasc">Data de Nascimento</label><br>
-<input type="date" id="dtnasc" name="Data Lançamento">
+<input type="date" id="dtnasc" name="Data Nascimento">
 <br>
 <br>
 <label>Aceita o Termos de Contrato?</label><input type="checkbox"><br>

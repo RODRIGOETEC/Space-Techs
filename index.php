@@ -11,7 +11,7 @@
 	<div class="main-login">
 		<div class="left-login">
 			<h1>Faça Login<br>E aproveite o Space-Techs</h1>
-	<img src="gamer.svg" class="left-login-image" alt="Gamer Animação">
+	<img src="imagem/gamer.svg" class="left-login-image" alt="Gamer Animação">
 		</div>
 		<div class="right-login">
 		<div class="card-login">
