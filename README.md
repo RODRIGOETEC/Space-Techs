@@ -20,3 +20,6 @@
                
                Vinicus Pereira Sampaio
                Rodrigo Silva Guedes
+
+
+               imagens animadas feitas no https://storyset.com/

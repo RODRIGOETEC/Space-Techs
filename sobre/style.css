@@ -1,6 +1,5 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
+body{
+    background: #2b134b;
 }
 
 header {
@@ -40,4 +39,19 @@ position: absolute;/*posicionar o submenu em relação as datas de turnÊ*/
 padding-left: 0;/*Posiciona alinhado ao lado esquerdo da Lista*/
 text-align: justify;
 display: block;
+ }
+
+ .titulo{
+    color:#00ff88;
+text-align: center;
+font-size: 20px;
+}
+
+
+.texto{
+    margin-left: 300px;
+    margin-right: 300px;
+    color: #00ff88;
+    font-size: 30px; 
+    text-align: justify;
 }
