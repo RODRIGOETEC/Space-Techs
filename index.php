@@ -16,15 +16,18 @@
 		<div class="right-login">
 		<div class="card-login">
 			<h1>LOGIN</h1>
+				<form action="home.php"> 
 			<div class="textfield">
 			   <label for="usuario">Usuário</label>
-			   <input type="text" name="usuario" placeholder="Usuário"> 
+			   <input type="text" name="usuario" placeholder="Usuário" required> 
 			</div>
 			<div class="textfield">
 			   <label for="senha">Senha</label>
-			   <input type="password" name="senha" placeholder="Senha"> 
+			   <input type="password" name="senha" placeholder="Senha" required> 
 			</div>
-			<button class="btn-login"><a href="home.php">Login</a></button>
+	<input class="btn-login" type="submit" value="Login">
+	</form>
+	
 			<div class="btn-2">
 				<button class="btn-cadastro"><a href="cadastro_user.php"><p>Cadastre-se</p></a></button>
 			<button class="btn-es"><a href="esenha.php"><p>Esqueceu a Senha?</p></a></button>
