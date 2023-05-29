@@ -1,36 +1,36 @@
-<form action="" method="post">
+<form action="Teste da Aula/Teste.php" method="post">
    <link rel="stylesheet" href="user.css">
    <div class="center-pag">  
    <h1>Cadasto de Usuário</h1>
    <br>
    <div class="textfield">
     <label for="nome_user">Nome<br></label>
-<input type="text" name="nome_user id="" placeholder="Nome"><br>
+<input type="text" name="nome" placeholder="Nome"><br>
 </div>
 <br>
 <div class="textfield">
     <label for="sob_user">Sobrenome<br></label>
-<input type="text"  name="sob_user" id="" placeholder="Sobrenome"><br>
+<input type="text"  name="sobrenome" id="" placeholder="Sobrenome"><br>
 </div>
 <br>
 <div class="textfield">
     <label for="name_user">Usuário<br></label>
-<input type="text"  name="name_user" id="" placeholder="Usuário"><br>
+<input type="text"  name="usuario" id="" placeholder="Usuário"><br>
 </div>
 <br>
 <div class="textfield">
     <label for="email_user">Email<br></label>
-<input type="text"  name="email_user" id="" placeholder="Email"><br>
+<input type="text"  name="email" id="" placeholder="Email"><br>
 </div>
 <br>
 <div class="textfield">
     <label for="cod_user">Código de Segurança de 6 digitos<br></label>
-<input type="text"  name="cod_user" id="" placeholder="EX:161384"  maxLength="6"><br>
+<input type="text"  name="cod_segurança" id="" placeholder="EX:161384"  maxLength="6"><br>
 </div>
 <br>
 <div class="textfield">
     <label for="numero_user">Numero do Usuário<br></label>
-<input type="text"  name="numero_user" id="" placeholder="EX:(11) 98722-5298"><br>
+<input type="text"  name="numero" id="" placeholder="EX:(11) 98722-5298"><br>
 </div>
 <br>
 <div class="textfield">
