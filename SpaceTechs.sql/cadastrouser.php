@@ -14,7 +14,7 @@ $senha_user = 'Usuario';
 $nasc_user = 'Usuario';
 $stmt = $pdo->query("insert into usuario values('$nome_user, $sob_user, $name_user, $email_user, $cod_user, $numero_user, $senha_user,$nasc_user')");
 if($stmt){
-    echo 'usuario craido';
+    echo 'usuario criado';
 }else{
     echo 'erro ao inserir usuario';
 }
