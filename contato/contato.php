@@ -23,18 +23,20 @@
 </header>
 </head>
 <body>
-    <div class="principal">
-<div class="esquerda">
-oie
+<div class="tudo">
+<h1>Caso esteja com problema em usar o nosso site você tem até 3 metodos para entrat em contato conosco</h1><br><br>
+<h2>Numero: </h2>
+<p>(11) 95637-4218</p>
+<h2>Email: </h2>
+<p>spacetechs@gmail.com</p>
+<form action="controle.php">
+<h2>Escreva o problema: </h2>
+<textarea id="msg" name="msg" rows="4" cols="50" maxlength="500" placeholder="Informe seu problema" required></textarea><br>
+<input class="btn_contatos" type="submit" value="Enviar problema">
+<h1>Esperamos ter te ajudado</h1>
+<img src="rosb.png">
 </div>
-<div class="direita">
-<p>Caso esteja com problema em usar o nosso site você tem até 3 metodos para entrat em contato conosco</p>
-<div class="contatos">
-<p>Numero: <br>
-(**) *****-**** </p>
-</div>
-</div>
-    </div>
+</form>
     
 </body>
 </html>
