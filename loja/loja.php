@@ -29,7 +29,12 @@
             text-decoration-color: #00ff88;
             background-color: #2b134b;
         }
-
+p{
+    color:#ffffff;
+}
+h2{
+    color: #00ff88;
+}
         h1{
             color: #00ff88;
             text-align: center;
@@ -49,6 +54,7 @@ justify-content: center;
             margin-top: 10px;
             text-align: center;
 justify-content: center;
+text-decoration-color: #ffffff;
         }
 
         .produto{
@@ -61,11 +67,11 @@ justify-content: center;
     <h1>Loja space-Techs</h1>
     <div id="items">
         <div class="item">
-            <h2>Camisa do Luff</h2>
-            <img src="luff.jpg" class="produto">
+            <h2>Camisa do Luffy</h2>
+            <img src="luffy.jpg" class="produto">
             <p>Descrição do item 1.</p>
-            <p>Preço: $10</p>
-            <button onclick="addItem('Camisa do Luff', 10)">Adicionar ao Carrinho</button>
+            <p>Preço: $60</p>
+            <button onclick="addItem('Camisa do Luffy', 60)">Adicionar ao Carrinho</button>
         </div>
         <div class="item">
             <h2>Item 2</h2>

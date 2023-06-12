@@ -29,6 +29,17 @@ body {
     padding: 0;
     background-color: #2b134b;
 }
+
+#not1{
+width:40%;
+}
+h2{
+    color:#00ff88;
+}
+
+p{
+    color: #ffffff;
+}
 h1 {
     margin: 0;
 }
@@ -65,10 +76,12 @@ main {
 <main>
 <div id="news-list">
     <div class="article">
-        <h2>Título da Notícia 1</h2>
-        <p>Texto da notícia 1.</p>
-        <img src="imagem1.jpg" alt="Imagem da Notícia 1">
-        <a href="#">Leia mais</a>
+        <h2>Loud se Despede do MSI</h2>
+        <p>A LOUD se despede do MSI com duas derrotas - na estreia para a europeia G2 Esports e agora para o PSG - e uma vitória contra a DFM.
+             Todos os confrontos, em melhor de três partidas (md3), foram 2 a 0.</p><br>
+        <img src="derrota.jpg" id="not1" alt="Imagem da Notícia 1">
+        <br>
+        <a href="https://ge.globo.com/esports/lol/noticia/2023/05/06/msi-2023-esperava-bem-mais-de-nos-diz-robo-apos-loud-cair.ghtml">Leia mais</a>
     </div>
     <div class="article">
         <h2>Título da Notícia 2</h2>
