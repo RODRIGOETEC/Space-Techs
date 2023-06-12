@@ -1,0 +1,32 @@
+create database SpaceTechs;
+
+use SpaceTechs;
+
+create table usuario (iduser int primary key auto_increment,
+ nome_user varchar(20), 
+ sob_user varchar(20),
+ name_user varchar(20),
+ email_user varchar(40),
+ cod_user varchar(6),
+ numero_user integer,
+ senha_user varchar(20),
+ nasc_user date);
+
+ create table produto (idproduto int primary key auto_increment,
+ nome_produto varchar(20), 
+ descricao varchar(20),
+ valor int(20),
+ tipo_produto varchar(50),
+ validade date);
+
+ create table recoemdacao (idrecomendacao int primary key auto_increment,
+ titulo varchar(20), 
+ conteudo varchar(20),
+ descricao_recomendacao varchar(20),
+ data_postada date);
+
+  create table noticia (idnoticia int primary key auto_increment,
+ titulo_noticia varchar(20), 
+ conteudo_noticia varchar(20),
+ descricao_noticia varchar(20),
+ data_noticia date);

@@ -1,9 +1,0 @@
-create table usuario (iduser int primary key auto_increment,
- nome_user varchar(20), 
- sob_user varchar(20),
- name_user varchar(20),
- email_user varchar(40),
- cod_user varchar(6),
- numero_user integer,
- senha_user varchar(20),
- nasc_user date);
