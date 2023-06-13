@@ -1,53 +1,49 @@
-<form action="" method="post">
-   <link rel="stylesheet" href="user.css">
-   <div class="center-pag">  
-   <h1>Cadasto de Usuário</h1>
-   <br>
-   <div class="textfield">
-    <label for="nome_user">Nome<br></label>
-<input type="text" name ="nome_user" placeholder="Nome" required><br>
-</div>
-<br>
-<div class="textfield">
-    <label for="sob_user">Sobrenome<br></label>
-<input type="text" name ="sob_user" placeholder="Sobrenome" required><br>
-</div>
-<br>
-<div class="textfield">
-    <label for="name_user">Usuário<br></label>
-<input type="text" name ="name_user" placeholder="Usuário" required><br>
-</div>
-<br>
-<div class="textfield">
-    <label for="email_user">Email<br></label>
-<input type="text" name ="email_user" placeholder="Email" required><br>
-</div>
-<br>
-<div class="textfield">
-    <label for="cod_user">Código de Segurança de 6 digitos<br></label>
-<input type="text" name ="cod_user" placeholder="EX:161384" maxLength="6" required><br>
-</div>
-<br>
-<div class="textfield">
-    <label for="numero_user">Numero do Usuário<br></label>
-<input type="text" name ="numero_user" placeholder="EX:(11) 98722-5298" required><br>
-</div>
-<br>
-<div class="textfield">
-    <label for="senha_user">Senha<br></label> 
-<input type="text" name ="senha_user" placeholder="Senha" required><br>
-</div>
-<br>
-<div class="textfield">
-    <label for="senha2_user">Confirme sua Senha<br></label>
-<input type="text" name ="senha2_user" placeholder="Confirme sua Senha" required><br> <br>
-</div>
-<label for="dtnasc">Data de Nascimento</label><br>s
-<input type="date" id="dtnasc" name="nasc_user" required>
-<br>
-<br>
-<label arequired>Aceita o Termos de Contrato?</label><input type="checkbox" required><br>
-<br>
-<input class="btn_conta" type="submit" value="Criar Conta">
-</div>
-</form>
+<?php
+// Conectar ao banco de dados
+$dsn = "mysql:host=localhost;dbname=spacetechs";
+$username = "root";
+$password = "";
+$pdo = new PDO($dsn, $username, $password);
+
+// Processar o formulário de cadastro
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    $iduser = "";
+    $nome = $_POST["nome"];
+    $email = $_POST["email"];
+    $senha = $_POST["senha"];
+
+    // Inserir os dados no banco de dados
+    $query = "INSERT INTO usuario (iduser, nome, email, senha) VALUES ('$iduser', '$nome', '$email', '$senha')";
+    $stmt = $pdo->prepare($query);
+    if ($stmt->execute()) {
+        echo "Cadastro realizado com sucesso!";
+    } else {
+        echo "Erro ao cadastrar: " . mysqli_error($pdo);
+    }
+}
+
+
+?>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cadastro de Usuário</title>
+</head>
+<body>
+    <h1>Cadastro de Usuário</h1>
+    <form method="post" action="<?php echo $_SERVER["PHP_SELF"]; ?>">
+        <label for="nome">Nome:</label>
+        <input type="text" name="nome" required><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" name="email" required><br><br>
+
+        <label for="senha">Senha:</label>
+        <input type="password" name="senha" required><br><br>
+
+        <input type="submit" value="Cadastrar">
+    </form>
+</body>
+</html>
