@@ -35,6 +35,7 @@ p{
 h2{
     color: #00ff88;
 }
+
         h1{
             color: #00ff88;
             text-align: center;

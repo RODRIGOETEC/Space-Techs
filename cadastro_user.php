@@ -30,6 +30,22 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <html>
 <head>
     <title>Cadastro de Usuário</title>
+    <style>
+        body{
+            background-color:#201b2c;
+            text-align: center;
+	justify-content: center;
+	align-items: center;
+    text-decoration-color: #ffffff;
+        }
+        h1{
+            color:#ffffff;
+        }
+
+        label{
+            color:#ffffff;
+        }
+    </style>
 </head>
 <body>
     <h1>Cadastro de Usuário</h1>
