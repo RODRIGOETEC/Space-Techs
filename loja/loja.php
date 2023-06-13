@@ -70,27 +70,30 @@ text-decoration-color: #ffffff;
         <div class="item">
             <h2>Camisa do Luffy</h2>
             <img src="luffy.jpg" class="produto">
-            <p>Descrição do item 1.</p>
+            <p>Camiseta do Luffy do Anime One Piece</p>
             <p>Preço: $60</p>
             <button onclick="addItem('Camisa do Luffy', 60)">Adicionar ao Carrinho</button>
         </div>
         <div class="item">
-            <h2>Item 2</h2>
-            <p>Descrição do item 2.</p>
-            <p>Preço: $20</p>
-            <button onclick="addItem('Item 2', 20)">Adicionar ao Carrinho</button>
+            <h2>Mortal Kombat X Standard Edition PS4</h2>
+            <img src="https://http2.mlstatic.com/D_NQ_NP_663022-MLA45089552755_032021-O.webp" class="produto">
+            <p>Jogo de Mortal Kombat X </p>
+            <p>Preço: $43</p>
+            <button onclick="addItem('Mortal Kombat X Standard Edition PS4', 43)">Adicionar ao Carrinho</button>
         </div>
         <div class="item">
-            <h2>Item 3</h2>
-            <p>Descrição do item 3.</p>
+            <h2>Harry Potter e a Pedra Filosofal: 1</h2>
+            <img src="https://images-americanas.b2w.io/produtos/4997773485/imagens/livro-harry-potter-e-a-pedra-filosofal-volume-1-j-k-rowling/4997773549_1_large.jpg" class="produto">
+            <p>Livro do Filme Harry Potter</p>
             <p>Preço: $30</p>
-            <button onclick="addItem('Item 3', 30)">Adicionar ao Carrinho</button>
+            <button onclick="addItem('Harry Potter e a Pedra Filosofal: 1', 30)">Adicionar ao Carrinho</button>
         </div>
          <div class="item">
-            <h2>Item 4</h2>
-            <p>Descrição do item 3.</p>
-            <p>Preço: $70</p>
-            <button onclick="addItem('Item 4', 70)">Adicionar ao Carrinho</button>
+            <h2>Caneca Anime Darling in the Franxx </h2>
+            <img src="https://img.elo7.com.br/product/360x360/259E61A/caneca-anime-darling-in-the-franxx-lo006-caneca-de-jogo.jpg" class="produto">
+            <p>Caneca da personagem Zero Two</p>
+            <p>Preço: $50</p>
+            <button onclick="addItem('Caneca Anime Darling in the Franxx', 50)">Adicionar ao Carrinho</button>
         </div>
     </div>
     <div id="cart">
