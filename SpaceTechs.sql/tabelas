@@ -2,7 +2,9 @@ create database spaceTechs;
 
 use spaceTechs;
 
-create table usuario (iduser int primary key auto_increment, nome varchar(20), email varchar(40), senha varchar(20))
+create table usuario (iduser varchar(20) primary key, nome varchar(20),  sobrenome varchar(20),
+ email varchar(40), numero int, codigo int(6), senha varchar(20), nascimento date);
+
 
  create table produto (idproduto int primary key auto_increment,
  nome_produto varchar(20), 
