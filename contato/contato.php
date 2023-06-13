@@ -24,7 +24,7 @@
 </head>
 <body>
 <div class="tudo">
-<h1>Caso esteja com problema em usar o nosso site você tem até 3 metodos para entrat em contato conosco</h1><br><br>
+<h1>Caso esteja com problema em usar o nosso site você tem até 3 metodos para entrar em contato conosco</h1><br><br>
 <h2>Numero: </h2>
 <p>(11) 95637-4218</p>
 <h2>Email: </h2>

@@ -30,7 +30,7 @@
     <br>
 O Space-Techs é um site criado para entreterimento, diversão, venda, noticias e mais, caso você que queira ver nossos diversos produtos com tema nerd
 e geek só entrar na aba da loja onde você pode comprar nossos produtos avontade. <br>
-Se estiver entediado e não saber o que assistir o jogar você pode ver nossas recomendações onde postamos animes, serie, jogos que estão fazendo
+Se estiver entediado e não saber o que assistir ou jogar você pode ver nossas recomendações onde postamos animes, serie, jogos que estão fazendo
 sucesso no momento e pelo link você ja vamos te encaminhar para um site seguro onde você pode acessar. <br>
 Quer ficar sabendo das mais novas noticias? entre em nossa aba de noticia e descubra oque está havendo por todo o mundo, assim se mantendo atualizado
 pra se gabar em seu grupo de amigos.
