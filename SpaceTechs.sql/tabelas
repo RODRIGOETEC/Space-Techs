@@ -19,8 +19,6 @@ create table usuario (iduser varchar(20) primary key, nome varchar(20),  sobreno
  descricao_recomendacao varchar(20),
  data_postada date);
 
-  create table noticia (idnoticia int primary key auto_increment,
- titulo_noticia varchar(20), 
+create table noticia (idnoticia int primary key auto_increment, titulo_not varchar (30), desc_not varchar(200))
  conteudo_noticia varchar(20),
- descricao_noticia varchar(20),
  data_noticia date);
