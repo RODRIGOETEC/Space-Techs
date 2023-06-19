@@ -1,6 +1,29 @@
 <form action="" method="post">
 <link rel="stylesheet" href="user.css">
 <div class="center-pag"> 
+	    <style>
+        body{
+            background-color:#201b2c;
+            text-align: center;
+	justify-content: center;
+	align-items: center;
+    text-decoration-color: #ffffff;
+        }
+        h1{
+            color:#ffffff;
+        }
+
+        label{
+            color:#ffffff;
+        }
+        p{
+        	color: #ffffff;
+        }
+        a{
+        	text-decoration: none;
+        	color: #ffffff;
+        }
+    </style>
     <h1>Recuperar Senha</h1>
     <P>Escolha um modo de recuperação de Senha</P>
 <div class="textfield">
@@ -17,3 +40,4 @@
 <input clas="btn_esenha" type="submit" value="Recuperar Senha">
 </div>
 </form>
+<a href="index.php">Voltar</a>

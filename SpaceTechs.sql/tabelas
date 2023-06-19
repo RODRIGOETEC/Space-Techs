@@ -5,20 +5,9 @@ use spaceTechs;
 create table usuario (iduser varchar(20) primary key, nome varchar(20),  sobrenome varchar(20),
  email varchar(40), numero int, codigo int(6), senha varchar(20), nascimento date);
 
+create table produto (idproduto int primary key auto_increment,  nome_produto varchar(40), desc_produto varchar (500), valor_produto real);
 
- create table produto (idproduto int primary key auto_increment,
- nome_produto varchar(20), 
- descricao varchar(20),
- valor int(20),
- tipo_produto varchar(50),
- validade date);
 
- create table recoemdacao (idrecomendacao int primary key auto_increment,
- titulo varchar(20), 
- conteudo varchar(20),
- descricao_recomendacao varchar(20),
- data_postada date);
+create table recomendacao (idrecomendacao int primary key auto_increment,  titulo_rec varchar(20),   conteudo_rec varchar(400), acessar_rec varchar(200), link_rec varchar(52), data_rec date);
 
-create table noticia (idnoticia int primary key auto_increment, titulo_not varchar (30), desc_not varchar(200))
- conteudo_noticia varchar(20),
- data_noticia date);
+create table noticia (idnoticia int primary key auto_increment, titulo_not varchar (30), desc_not varchar(200), conteudo_not varchar(10000), link_not varchar(200), data_not date);

@@ -10,12 +10,15 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $idnoticia = "";
     $titulo_not = $_POST["titulo_not"];
     $desc_not = $_POST["desc_not"];
+    $conteudo_not = $_POST["conteudo_not"];
+    $link_not = $_POST["link_not"];
+    $data_not = $_POST["data_not"];
 
     // Inserir os dados no banco de dados
-    $query = "INSERT INTO noticia (idnoticia, titulo_not, desc_not) VALUES ('$idnoticia', '$titulo_not', '$desc_not')";
+    $query = "INSERT INTO noticia (idnoticia, titulo_not, desc_not, conteudo_not, link_not, data_not ) VALUES ('$idnoticia', '$titulo_not', '$desc_not','$conteudo_not', '$link_not', '$data_not')";
     $stmt = $pdo->prepare($query);
     if ($stmt->execute()) {
-        echo "Noticia adastrada com sucesso!";
+        echo "Noticia Cadastrada com sucesso!";
     } else {
         echo "Erro ao cadastrar: " . mysqli_error($pdo);
     }
@@ -28,7 +31,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Cadastro de Usuário</title>
+    <title>Cadastro de Noticia</title>
     <style>
         body{
             background-color:#201b2c;
@@ -44,18 +47,32 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         label{
             color:#ffffff;
         }
+
+        a{
+            font-size: 20px;
+            color: #ffffff;
+        }
     </style>
 </head>
 <body>
     <h1>Cadastro de Noticia</h1>
     <form method="post" action="<?php echo $_SERVER["PHP_SELF"]; ?>">
-        <label for="titulo_not">Titulo da Noticia:</label>
+        <label for="titulo_not">Titulo da Noticia:<br></label>
         <input type="text" name="titulo_not" required><br><br>
 
-        <label for="desc_not">Descrição da Noticia:</label>
+        <label for="desc_not">Descrição da Noticia:<br></label>
         <input type="text" name="desc_not" required><br><br>
 
-        <input type="submit" value="Cadastrar">
+        <label for="conteudo_not">Conteudo da Noticia:<br></label>
+        <input type="text" name="conteudo_not"required><br><br>
+
+        <label for="link_not">Link da Noticia:<br></label>
+        <input type="link" name="link_not"required><br><br>
+
+        <label for="data_not">Data da Noticia:<br></label>
+        <input type="date" name="data_not"required><br><br>
+
+        <input type="submit" value="Cadastrar"><br><br>
     </form>
-</body>
+<a href="home.php">Voltar</a>
 </html>
