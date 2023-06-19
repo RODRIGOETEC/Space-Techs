@@ -16,7 +16,7 @@
 		<div class="right-login">
 		<div class="card-login">
 			<h1>LOGIN</h1>
-				<form action="home.php"> 
+				<form action="consulta.php" method="$_GET"> 
 			<div class="textfield">
 			   <label for="usuario">Usuário</label>
 			   <input type="text" name="usuario" placeholder="Usuário" required> 
