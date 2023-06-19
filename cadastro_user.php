@@ -49,6 +49,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         label{
             color:#ffffff;
         }
+        a{
+            font-size: 20px;
+            color: #ffffff;
+        }
     </style>
 </head>
 <body>
@@ -80,5 +84,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
         <input type="submit" value="Cadastrar">
     </form>
+    <br><br>
+    <a href="index.php">Voltar</a>
 </body>
 </html>
