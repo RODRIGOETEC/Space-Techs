@@ -10,6 +10,7 @@
     <h1 class="cabecalho">Space-Techs</h1>
     <nav>
     <ul id="menu">
+    <li> <a href="../listas.php">Usuarios</a></li>
     <li><a href="">Cadastros</a>
                 <ul id="submenu">
                     <li><a href="../cadastro_noticia.php">Cadastrar Noticia</a></li>

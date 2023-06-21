@@ -10,6 +10,7 @@
     <h1 class="cabecalho">Space-Techs</h1>
     <nav>
     <ul id="menu">
+    <li> <a href="../listas.php">Usuarios</a></li>
     <li><a href="">Cadastros</a>
                 <ul id="submenu">
                     <li><a href="../cadastro_noticia.php">Cadastrar Noticia</a></li>
@@ -70,9 +71,9 @@ main {
     margin-bottom: 10px;
 }
 .article a {
-    text-decoration: none;
     color: #333;
     font-weight: bold;
+    color: white;
 }
 .article a:hover {
     text-decoration: underline;
@@ -94,15 +95,15 @@ main {
         <h2>Demo de Lies of P está disponível; jogo souls do Pinóquio é adiado em alguns dias</h2>
         <p>A Neowiz anunciou, durante o Summer Game Fest 2023, que uma demo de Lies of P já está disponível.
             A editora também confirmou que o jogo do Pinóquio foi adiado em alguns dias e a nova data de lançamento será 19 de setembro.<br>
-            Anteriormente, o game seria lançado em agosto.</p>
-        <img src="https://www.liesofp.com/img/sns-banner.jpg" alt="Imagem da Notícia 2">
+            Anteriormente, o game seria lançado em agosto.</p><br>
+        <img src="https://www.liesofp.com/img/sns-banner.jpg" alt="Imagem da Notícia 2"><br>
         <a href="https://br.ign.com/lies-of-p/109808/news/demo-de-lies-of-p-esta-disponivel-jogo-souls-do-pinoquio-e-adiado-em-alguns-dias">Leia mais</a>
     </div>
     <div class="article">
         <h2>Filme Suzume deixa os cinemas japoneses e arrecada 14,79 bilhões de ienes</h2>
         <p>Contando o que foi arrecadado no dia 28 de maio, o último dia de Suzume em cartaz, o longa arrecadou por lá 14,79 bilhões de ienes (aproximadamente 534 milhões de reais), tendo vendido 11,15 milhões de ingresso.<br>
-             Isso torna Suzume o 14º filme que mais arrecadou da história do Japão, o 8º filme em anime que mais arrecadou no país e o 17º longa-metragem mais visto nos cinemas japoneses baseado no número de ingressos vendidos.</p>
-        <img src="https://kesifasya.com/wp-content/uploads/2022/10/image-35.png.webp" alt="Imagem da Notícia 3">
+             Isso torna Suzume o 14º filme que mais arrecadou da história do Japão, o 8º filme em anime que mais arrecadou no país e o 17º longa-metragem mais visto nos cinemas japoneses baseado no número de ingressos vendidos.</p><br>
+        <img src="https://kesifasya.com/wp-content/uploads/2022/10/image-35.png.webp" alt="Imagem da Notícia 3"><br>
         <a href="https://www.crunchyroll.com/pt-br/anime-news/2023/05/30/filme-suzume-deixa-os-cinemas-japoneses-e-arrecada-1479-bilhes-de-ienes">Leia mais</a>
     </div>
 </div>

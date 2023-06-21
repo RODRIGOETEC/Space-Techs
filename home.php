@@ -8,6 +8,7 @@
     <h1 class="cabecalho">Space-Techs</h1>
     <nav>
     <ul id="menu">
+    <li> <a href="listas.php">Usuarios</a></li>
     <li><a href="">Cadastros</a>
                 <ul id="submenu">
                     <li><a href="cadastro_noticia.php">Cadastrar Noticia</a></li>
@@ -97,7 +98,7 @@
   </fieldset>
   </form>
   <br><br>
-   <video width="640" height="360" src="kuru.mp4" controls autoplay muted loop></video>
+   <video width="640" height="360" src="estilo/kuru.mp4" controls autoplay muted loop></video>
   </div>
 </body>
 </html>
