@@ -25,6 +25,7 @@
             <li><a href="../recomendacao/recomendacao.php">Recomendações</a></li> 
             <li><a href="../loja/loja.php">Loja</a></li>
             <li><a href="contato.php">Contato</a></li>
+            <li><a href="../sair.php">Sair</a></li>
             </li>        
         </ul>
 </nav>

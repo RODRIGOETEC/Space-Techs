@@ -22,6 +22,7 @@
             <li><a href="recomendacao/recomendacao.php">Recomendações</a></li> 
             <li><a href="loja/loja.php">Loja</a></li>
             <li><a href="contato/contato.php">Contato</a></li>
+            <li><a href="sair.php">Sair</a></li>
             </li>        
         </ul>
 </nav>
@@ -97,8 +98,6 @@
   </table>
   </fieldset>
   </form>
-  <br><br>
-   <video width="640" height="360" src="estilo/kuru.mp4" controls autoplay muted loop></video>
   </div>
 </body>
 </html>
